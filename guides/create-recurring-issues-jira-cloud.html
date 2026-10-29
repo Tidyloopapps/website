@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to create recurring issues in Jira Cloud</title><meta name="description" content="Three ways to create repeating Jira work items on a schedule: Jira Automation, a recurring-work app, or by hand. Time zones, sub-tasks and the 2026 Automation billing change."><style>:root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--line:#e5e5e5}@media(prefers-color-scheme:dark){:root{--fg:#eee;--muted:#aaa;--bg:#121212;--accent:#4fc39a;--line:#2a2a2a}}*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}header a{color:var(--fg);text-decoration:none;margin-left:16px}header .brand{font-weight:700;margin:0}main{padding-top:32px;padding-bottom:48px}h1{font-size:28px;line-height:1.25}h2{font-size:20px;margin-top:32px}a{color:var(--accent)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;color:var(--muted);font-size:14px}.card{border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}</style></head><body><header><a class="brand" href="/">Tidyloop Apps</a><nav><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header><main><p><a href="/guides/">Guides</a></p>
+<h1>How to create recurring issues in Jira Cloud</h1>
+<p>Updated October 29, 2026</p>
+<p>Weekly status reports, month-end close, quarterly access reviews: some work comes back on a fixed rhythm. Jira has no "repeat" button on a work item, so teams use one of three approaches.</p>
+<h2>1. Jira Automation with a scheduled trigger</h2>
+<ol>
+<li>Go to <strong>Project settings → Automation → Create rule</strong>.</li>
+<li>Choose the <strong>Scheduled</strong> trigger and set how often it runs (a fixed interval or a cron expression).</li>
+<li>Add the action <strong>Create work item</strong> and fill in the summary, description and assignee. Add <strong>Create sub-tasks</strong> if you need them.</li>
+<li>Turn the rule on.</li>
+</ol>
+<p>This is built in and flexible. Things to watch:</p>
+<ul>
+<li><strong>Tricky schedules need cron.</strong> "Last business day of the month" or "every second Tuesday" means writing and testing a cron expression.</li>
+<li><strong>Time zones.</strong> Check which time zone the rule runs in, especially around daylight saving changes.</li>
+<li><strong>Usage.</strong> From December 3, 2026, Atlassian bills Automation by <em>steps</em>, and every run of a scheduled rule counts against your plan's monthly allowance. Many recurring rules across many projects add up. Atlassian's page <a href="https://support.atlassian.com/cloud-automation/docs/how-is-my-usage-calculated/">How is your automation usage calculated</a> has the current numbers.</li>
+<li><strong>One rule per schedule.</strong> Twenty recurring tasks means twenty rules to maintain.</li>
+</ul>
+<h2>2. A recurring-work app</h2>
+<p>Marketplace apps let you set a schedule in plain language ("every weekday", "last business day of the month"), preview the next dates, and keep all schedules for a project on one page. Look for apps that run on Atlassian's own cloud, handle time zones per schedule, and don't use Automation rules, so they don't draw on your Automation allowance. We're building one: Recurring work by Tidyloop Apps (coming to the Atlassian Marketplace).</p>
+<h2>3. Clone by hand</h2>
+<p>Keep a template work item and use <strong>Clone</strong> each time. Fine for one or two items a month, easy to forget for anything more.</p>
+<h2>Tips that apply to every method</h2>
+<ul>
+<li>Put the date in the summary ("Status report – week 44") so recurring items are easy to tell apart.</li>
+<li>Use a checklist in the description, or sub-tasks, for repeatable steps.</li>
+<li>Pick one owner per schedule so nothing is created without someone to work on it.</li>
+</ul>
+</main><footer>© 2026 Tidyloop Apps · <a href="mailto:support@tidyloopapps.com">support@tidyloopapps.com</a></footer></body></html>
