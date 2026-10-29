@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to split Shopify orders by vendor for dropshipping</title><meta name="description" content="Separate supplier and in-house items in Shopify orders automatically, without duplicate orders. What Shopify and Flow can and can't do."><style>:root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--line:#e5e5e5}@media(prefers-color-scheme:dark){:root{--fg:#eee;--muted:#aaa;--bg:#121212;--accent:#4fc39a;--line:#2a2a2a}}*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}header a{color:var(--fg);text-decoration:none;margin-left:16px}header .brand{font-weight:700;margin:0}main{padding-top:32px;padding-bottom:48px}h1{font-size:28px;line-height:1.25}h2{font-size:20px;margin-top:32px}a{color:var(--accent)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;color:var(--muted);font-size:14px}.card{border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}</style></head><body><header><a class="brand" href="/">Tidyloop Apps</a><nav><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header><main><p><a href="/guides/">Guides</a></p>
+<h1>How to split Shopify orders by vendor for dropshipping</h1>
+<p>Updated October 29, 2026</p>
+<p>If some products ship from your own stock and others ship from a supplier, each order needs to be divided so the supplier only sees their items and your team only packs yours.</p>
+<h2>What Shopify does on its own</h2>
+<ul>
+<li>If the supplier's products are stocked at a separate <strong>location</strong> (or a fulfillment service), Shopify creates a separate fulfillment group for them automatically.</li>
+<li>If they share your location, Shopify keeps everything in one fulfillment group, and you separate it by hand.</li>
+<li>Shopify Flow can't split a fulfillment by vendor. It can react after a split happens, but it has no split action.</li>
+</ul>
+<h2>Splitting by vendor automatically</h2>
+<p>Make sure the <strong>Vendor</strong> field is set on each supplier product. Then use a rule such as "When an item is from the vendor Northwind Supply, ship it separately." <a href="/split.html">Tidyloop Split</a> applies that rule to every new order, inside the same order, so you don't create duplicate orders or refunds.</p>
+<h2>Good practice</h2>
+<ul>
+<li>Keep vendor names spelled exactly the same on every product.</li>
+<li>Combine with a tag rule for items that need extra work, such as engraving.</li>
+<li>Check the first few orders on the order page to confirm each supplier's items sit in their own group.</li>
+</ul>
+</main><footer>© 2026 Tidyloop Apps · <a href="mailto:support@tidyloopapps.com">support@tidyloopapps.com</a></footer></body></html>
