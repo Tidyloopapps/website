@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to hold part of a Shopify order and ship the rest</title><meta name="description" content="Put only some items in a Shopify order on hold, ship the rest now, and release the hold later. The manual way and the automatic way."><style>:root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--line:#e5e5e5}@media(prefers-color-scheme:dark){:root{--fg:#eee;--muted:#aaa;--bg:#121212;--accent:#4fc39a;--line:#2a2a2a}}*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}header a{color:var(--fg);text-decoration:none;margin-left:16px}header .brand{font-weight:700;margin:0}main{padding-top:32px;padding-bottom:48px}h1{font-size:28px;line-height:1.25}h2{font-size:20px;margin-top:32px}a{color:var(--accent)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;color:var(--muted);font-size:14px}.card{border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}</style></head><body><header><a class="brand" href="/">Tidyloop Apps</a><nav><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header><main><p><a href="/guides/">Guides</a></p>
+<h1>How to hold part of a Shopify order and ship the rest</h1>
+<p>Updated October 29, 2026</p>
+<p>Sometimes one item in an order isn't ready: it's being engraved, it's a preorder, or you're waiting on a supplier. You want the rest to ship today and the late item to wait, without cancelling or creating a second order.</p>
+<h2>The manual way in Shopify admin</h2>
+<ol>
+<li>Open the order and find the <strong>Unfulfilled</strong> section.</li>
+<li>Open its menu and choose <strong>Mark as on hold</strong>.</li>
+<li>Select only the items that should wait, pick a reason, and confirm.</li>
+<li>When the items are ready, click <strong>Release hold</strong> in the On hold section.</li>
+</ol>
+<p>This works well for the occasional order. It becomes a chore when the same kind of item (every engraved ring, every preorder) needs the same treatment on dozens of orders a day, and it's easy to forget to release a hold.</p>
+<h2>What Shopify Flow can do</h2>
+<p>Flow can place holds automatically, but it acts on a whole fulfillment group. It has no action to separate certain items first, so on its own it can't hold just the engraved ring and ship the socks.</p>
+<h2>Holding part of every matching order automatically</h2>
+<p><a href="/split.html">Tidyloop Split</a> uses rules such as "When an item has the tag <em>engraved</em>, ship it separately" or "When an item has the tag <em>preorder</em>, hold it until December 1." Each new order is split inside the same order, the matching items are held, everything else stays ready to ship, and each hold is released on the date you chose. You can always release early from the order page or the app's Activity page.</p>
+<h2>Good practice</h2>
+<ul>
+<li>Tag products consistently so rules match the right items.</li>
+<li>Tell customers on the product page that the item ships separately.</li>
+<li>Check that your packing team only works from the Unfulfilled list, so held items aren't packed by mistake.</li>
+</ul>
+</main><footer>© 2026 Tidyloop Apps · <a href="mailto:support@tidyloopapps.com">support@tidyloopapps.com</a></footer></body></html>
