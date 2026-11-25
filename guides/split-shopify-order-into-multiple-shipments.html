@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to split a Shopify order into multiple shipments</title><meta name="description" content="Three ways to send one Shopify order in more than one package: partial fulfillment by hand, holding part of the order, and splitting automatically with rules."><style>:root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--line:#e5e5e5}@media(prefers-color-scheme:dark){:root{--fg:#eee;--muted:#aaa;--bg:#121212;--accent:#4fc39a;--line:#2a2a2a}}*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}header a{color:var(--fg);text-decoration:none;margin-left:16px}header .brand{font-weight:700;margin:0}main{padding-top:32px;padding-bottom:48px}h1{font-size:28px;line-height:1.25}h2{font-size:20px;margin-top:32px}a{color:var(--accent)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;color:var(--muted);font-size:14px}.card{border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}</style></head><body><header><a class="brand" href="/">Tidyloop Apps</a><nav><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header><main><p><a href="/guides/">Guides</a></p>
+<h1>How to split a Shopify order into multiple shipments</h1>
+<p>Updated November 25, 2026</p>
+<p>One order often can't go out in one box: a preorder sits next to an in-stock item, two vendors ship from different places, or the order is too heavy for one package. Shopify lets you ship an order in parts, but it doesn't decide which parts for you. Here are three ways to do it, from fully manual to automatic.</p>
+<h2>Option 1: Fulfill part of the order by hand</h2>
+<ol>
+<li>In Shopify admin open <strong>Orders</strong> and choose the order.</li>
+<li>Click <strong>Fulfill items</strong>.</li>
+<li>Lower the quantity of each item you are <em>not</em> shipping yet (set it to 0), add tracking if you have it, and confirm.</li>
+</ol>
+<p>The items you shipped are marked fulfilled. The rest stay on the order as unfulfilled, and you repeat the steps when they are ready. This is fine for a few orders a week. The downside: someone has to look at every order and remember what is waiting.</p>
+<h2>Option 2: Put the waiting items on hold</h2>
+<p>If part of the order must not ship yet, a hold stops anyone from packing it by mistake. Shopify can hold a fulfillment from the order page, and the hold stays until someone releases it. See <a href="/guides/hold-part-of-shopify-order.html">How to hold part of a Shopify order and ship the rest</a> for the steps and the catches.</p>
+<h2>Option 3: Split orders automatically with rules</h2>
+<p><a href="/split.html">Tidyloop Split</a> checks each new order and splits it into separate shipments by rules you set, for example:</p>
+<ul>
+<li><strong>Product tag is "preorder" → Ship separately</strong> (and on Pro, hold until the release date).</li>
+<li><strong>Item is out of stock → Ship separately</strong>, so the in-stock part goes out now.</li>
+<li><strong>Vendor is "Acme" → Ship separately</strong>, for dropshipping or a second warehouse partner.</li>
+<li><strong>Max 20 lb per package</strong> (Pro), so heavy orders are cut into boxes that fit your carrier.</li>
+</ul>
+<p>It stays one order: the customer pays once, your reports don't change, and each shipment gets its own tracking. Orders placed before you set up a rule can be split from the order page with <strong>Split now</strong>.</p>
+<h2>Which one to use</h2>
+<ul>
+<li>A handful of mixed orders a month: Option 1.</li>
+<li>Some items regularly wait for a date or for stock: Option 2, or Option 3 if you don't want to check each order.</li>
+<li>The same kind of split every day (preorders, vendors, weight): Option 3.</li>
+</ul>
+<p>More detail for each case: <a href="/guides/ship-preorders-separately-shopify.html">preorders</a>, <a href="/guides/ship-backorders-separately-shopify.html">backorders</a>, <a href="/guides/split-shopify-orders-by-vendor.html">vendors</a>, <a href="/guides/split-heavy-shopify-orders-by-weight.html">weight</a>.</p>
+</main><footer>© 2026 Tidyloop Apps · <a href="mailto:support@tidyloopapps.com">support@tidyloopapps.com</a></footer></body></html>
