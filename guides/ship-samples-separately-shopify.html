@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to ship samples and swatches separately in Shopify (letter mail)</title><meta name="description" content="Send fabric swatches, paint chips and product samples in a cheap flat envelope while the rest of the order ships as a parcel, inside one Shopify order."><style>:root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--line:#e5e5e5}@media(prefers-color-scheme:dark){:root{--fg:#eee;--muted:#aaa;--bg:#121212;--accent:#4fc39a;--line:#2a2a2a}}*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}header a{color:var(--fg);text-decoration:none;margin-left:16px}header .brand{font-weight:700;margin:0}main{padding-top:32px;padding-bottom:48px}h1{font-size:28px;line-height:1.25}h2{font-size:20px;margin-top:32px}a{color:var(--accent)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;color:var(--muted);font-size:14px}.card{border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}</style></head><body><header><a class="brand" href="/">Tidyloop Apps</a><nav><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header><main><p><a href="/guides/">Guides</a></p>
+<h1>How to ship samples and swatches separately in Shopify (letter mail)</h1>
+<p>Updated November 26, 2026</p>
+<p>Fabric swatches, paint chips, flooring samples, perfume vials and similar small items fit in a flat envelope that costs far less to mail than a parcel, and they often ship from a different shelf or the same day the order comes in. When a customer orders swatches together with a full product, packing everything in one box means the samples wait for the product and ride at parcel rates. The goal is two shipments inside one order: the samples in an envelope, the rest as a normal parcel.</p>
+<h2>What Shopify does on its own</h2>
+<ul>
+<li>Shopify puts every item from the same location into one fulfillment group, so samples and full-size products show up as one shipment to pack.</li>
+<li>You can split them by hand: on the order page, use <strong>Fulfill items</strong> for the samples first and mark them shipped by letter mail, then fulfill the rest as a parcel.</li>
+<li>Shopify Flow can tag orders that contain sample products, but it has no action that moves those items into their own fulfillment group.</li>
+</ul>
+<p>Splitting by hand works for a few orders a week. When samples are a regular part of your sales, every packer has to spot them on every order, and a missed one either delays the samples or puts them in a box at parcel cost.</p>
+<h2>Doing it automatically</h2>
+<ol>
+<li>Tag every sample or swatch product with a shared product tag, for example <em>Sample</em>.</li>
+<li>Add a rule: "When an item has the tag <em>Sample</em>, ship it separately."</li>
+</ol>
+<p><a href="/split.html">Tidyloop Split</a> applies that rule to each new order inside the same order. Full-size items stay in the normal shipment; each sample gets its own fulfillment group, so packers see it as a separate envelope shipment. "Ship separately" works on every plan.</p>
+<p>Tidyloop Split does not buy postage or pick a carrier. It only separates the items so each shipment can go by the right service.</p>
+<h2>Good practice</h2>
+<ul>
+<li>Tag the product, not the order, so every future order is covered.</li>
+<li>Give sample products an accurate weight, so Shopify can show a letter-mail rate when the cart has only samples.</li>
+<li>Check your postal service's size and thickness limits for flat envelopes; a sample that is too thick is charged as a parcel.</li>
+<li>Say on the product page that samples ship separately and may arrive before the rest of the order.</li>
+</ul>
+<p>Related: <a href="/guides/split-shopify-order-into-multiple-shipments.html">How to split a Shopify order into multiple shipments</a> · <a href="/guides/split-heavy-shopify-orders-by-weight.html">How to split heavy Shopify orders into multiple packages by weight</a></p>
+</main><footer>© 2026 Tidyloop Apps · <a href="mailto:support@tidyloopapps.com">support@tidyloopapps.com</a></footer></body></html>
