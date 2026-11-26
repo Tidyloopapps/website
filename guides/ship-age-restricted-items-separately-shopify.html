@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to ship alcohol and age-restricted items separately in Shopify (adult signature)</title><meta name="description" content="Send wine, spirits, vape products and other age-restricted items in their own adult-signature shipment, and the rest of the order by your normal service, inside one Shopify order."><style>:root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--line:#e5e5e5}@media(prefers-color-scheme:dark){:root{--fg:#eee;--muted:#aaa;--bg:#121212;--accent:#4fc39a;--line:#2a2a2a}}*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}header{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}header a{color:var(--fg);text-decoration:none;margin-left:16px}header .brand{font-weight:700;margin:0}main{padding-top:32px;padding-bottom:48px}h1{font-size:28px;line-height:1.25}h2{font-size:20px;margin-top:32px}a{color:var(--accent)}footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;color:var(--muted);font-size:14px}.card{border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}</style></head><body><header><a class="brand" href="/">Tidyloop Apps</a><nav><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav></header><main><p><a href="/guides/">Guides</a></p>
+<h1>How to ship alcohol and age-restricted items separately in Shopify (adult signature)</h1>
+<p>Updated November 26, 2026</p>
+<p>Wine, beer, spirits, vape products and some other items can only be delivered to an adult who shows ID, and carriers charge extra for an adult signature. When a customer orders a bottle of wine with a corkscrew and a gift bag, packing everything together means the whole parcel waits for an adult signature, and a missed delivery sends all of it back. The goal is two shipments inside one order: the age-restricted item with adult signature, the rest by your normal service.</p>
+<h2>What Shopify does on its own</h2>
+<ul>
+<li>Shopify puts every item from the same location into one fulfillment group, so the age-restricted item and the ordinary items show up as one shipment to pack.</li>
+<li>You can split them by hand: on the order page, use <strong>Fulfill items</strong> for the ordinary items, then fulfill the age-restricted item on its own and add adult signature to that label.</li>
+<li>Shopify Flow can tag or flag orders that contain age-restricted products, but it has no action that moves those items into their own fulfillment group.</li>
+</ul>
+<p>Splitting by hand works for a few orders a week. When age-restricted items are a regular part of your catalog, every packer has to spot them on every order, and one miss can mean a delivery that breaks your carrier's terms or the law where the customer lives.</p>
+<h2>Doing it automatically</h2>
+<ol>
+<li>Tag every age-restricted product with a shared product tag, for example <em>Adult signature</em>.</li>
+<li>Add a rule: "When an item has the tag <em>Adult signature</em>, ship it separately."</li>
+</ol>
+<p><a href="/split.html">Tidyloop Split</a> applies that rule to each new order inside the same order. Ordinary items stay in the normal shipment; each age-restricted item gets its own fulfillment group, so packers see it as a separate shipment that needs an adult signature. "Ship separately" works on every plan.</p>
+<p>Tidyloop Split does not check a customer's age or decide where you may ship. It only separates the items so the right shipment gets the right label. Age checks at checkout and shipping-zone limits are separate settings.</p>
+<h2>Good practice</h2>
+<ul>
+<li>Tag the product, not the order, so every future order is covered.</li>
+<li>Check your carrier's rules for alcohol and vape products before you ship; many carriers need a signed agreement and limit which states or countries you can ship to.</li>
+<li>Limit shipping zones in Shopify for age-restricted products to the places you are licensed to ship to.</li>
+<li>Say on the product page that the item ships separately and needs an adult (21+ in the US) to sign, so the customer can plan to be home.</li>
+</ul>
+<p>Related: <a href="/guides/split-shopify-order-into-multiple-shipments.html">How to split a Shopify order into multiple shipments</a> · <a href="/guides/ship-high-value-items-separately-shopify.html">How to ship high-value items separately in Shopify (signature and insurance)</a></p>
+</main><footer>© 2026 Tidyloop Apps · <a href="mailto:support@tidyloopapps.com">support@tidyloopapps.com</a></footer></body></html>
